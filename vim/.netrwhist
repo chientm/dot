@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Applications/Automator.app'
+let g:netrw_dirhist_2='/Applications/Layout Editor/layout.app'
+let g:netrw_dirhist_3='/Volumes/Users/cmta/conf/log'
+let g:netrw_dirhist_4='/Volumes/Users/cmta/conf/nitero-melbourne'

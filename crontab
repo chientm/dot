@@ -1,0 +1,3 @@
+01 * * * * find ~ -name ".DS_Store" -depth -exec rm {} \;
+01 * * * * find ~ -name "Thumbs.db" -depth -exec rm {} \; 
+01 * * * * find ~ -name "Thumbs.dbencryptable" -depth -exec rm {} \;
