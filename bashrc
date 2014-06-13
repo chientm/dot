@@ -41,3 +41,5 @@ export GREP_OPTIONS='--color=auto'
 
 # Set prompt
 PS1="\[\e[0;33m\][\u@\H:\w]$\[\e[m\] "
+
+#test
