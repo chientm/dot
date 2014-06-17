@@ -27,5 +27,9 @@ export MKL_NUM_THREADS
 PATH="/opt/subversion/bin:${PATH}"
 export PATH
 
+# PATH for Icarus Verilog
+PATH="/Developer/Simulator/Icarus/bin:${PATH}"
+export PATH
+
 # load user's .bashrc
 if [ -f ~/.bashrc ]; then source ~/.bashrc; fi
