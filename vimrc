@@ -33,8 +33,8 @@ set laststatus=2
 " wrapping
 set wrap
 
-" use indents of 4 spaces, and have them copied down lines:
-set noexpandtab "do not convert tab to space
+" use indents of 2 spaces, and have them copied down lines:
+set expandtab "convert tab to space
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
