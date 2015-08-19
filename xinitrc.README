@@ -1,0 +1,8 @@
+Curently X11 is configured to used the default WM, which is quartz-vm, in rootless mode.
+quartz-vm is started by the script /opt/X11/lib/X11/xinit/xinitrc.d/99-quartz-vm.sh
+
+To start X11 with Enlightenment WM, create this link in home folder
+ln -s ./dotfiles/xinitrc.d ~/.xinitrc.d
+Once Enlightenment is loaded, quartz-vm will not be loaded.
+
+Full screen mode is controlled via Preferences menu of X11 application.

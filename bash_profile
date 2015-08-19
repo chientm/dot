@@ -39,3 +39,5 @@ if [ -f ~/.bashrc ]; then source ~/.bashrc; fi
 VIRTUAL_ENV_DISABLE_PROMPT=1 source '/Users/cmta/Library/Enthought/Canopy_64bit/User/bin/activate'
 
 VIRTUAL_ENV_DISABLE_PROMPT=1 source '/Users/cmta/Library/Enthought/Canopy_64bit/User/bin/activate'
+
+test -r /sw/bin/init.sh && . /sw/bin/init.sh
