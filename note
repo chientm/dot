@@ -6,3 +6,8 @@ sudo firewall-cmd --state
 sudo firewall-cmd --permanent --zone=public --add-port=5901/tcp
 #sudo firewall-cmd --permanent --zone=public --add-port=5901-5905/tcp
 sudo firewall-cmd --reload
+
+# setup ssh for ubuntu
+sudo apt-get update
+sudo apt-get install openssh-server
+sudo ufw allow 22
