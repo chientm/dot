@@ -1,1 +1,8 @@
+# centos7 uses gnome3 and requires -extension RANDR for the geometry to work
 vncserver -geometry 1920x1080 -extension RANDR
+
+# setup firewall for vncserver
+sudo firewall-cmd --state
+sudo firewall-cmd --permanent --zone=public --add-port=5901/tcp
+#sudo firewall-cmd --permanent --zone=public --add-port=5901-5905/tcp
+sudo firewall-cmd --reload
