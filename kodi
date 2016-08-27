@@ -1,0 +1,16 @@
+Open Kodi
+Select SYSTEM > File Manager
+Select Add Source
+Select None
+Type the following EXACTLY http://fusion.tvaddons.ag and select Done
+Highlight the box underneath Enter a name for this media Source & type fusion
+Select OK
+Go back to your Home Screen
+Select SYSTEM
+Select Add-Ons
+Select Install from zip file
+Select fusion
+Select start-here
+Select plugin.program.addoninstaller-x.x.x.zip
+Wait for Add-on enabled notification
+The Addon Installer is now installed and ready to use. To use the add-on open PROGRAMS and select Addon Installer. Once opened you can search for any add-on that you wish to install.
