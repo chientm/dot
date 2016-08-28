@@ -1,6 +1,7 @@
 # setup vncserver for ubutu 14.04.5 lts
 sudo apt-get install vnc4server
 sudo apt-get install gnome-panel
+# other packages might be required are gnome-settings-daemon metacity nautilus gnome-terminal
 
 # setup firewall for vncserver
 sudo apt-get install firewalld
