@@ -1,18 +1,33 @@
 # install Addon Installer
-- Select SYSTEM > File Manager
-- Select Add Source
-- Select None
-- Type the following EXACTLY http://fusion.tvaddons.ag and select Done
-- Highlight the box underneath Enter a name for this media Source & type fusion
-- Select OK
-- Go back to your Home Screen
-- Select SYSTEM
-- Select Add-Ons
-- Select Install from zip file
-- Select fusion
-- Select start-here
-- Select plugin.program.addoninstaller-x.x.x.zip
-- Wait for Add-on enabled notification
-- The Addon Installer is now installed and ready to use. To use the add-on open PROGRAMS and select Addon Installer. Once opened you can search for any add-on that you wish to install.
+1. Select SYSTEM > File Manager
+2. Select Add Source
+3. Select None
+4. Type the following EXACTLY http://fusion.tvaddons.ag and select Done
+5. Highlight the box underneath Enter a name for this media Source & type fusion
+6. Select OK
+7. Go back to your Home Screen
+8. Select SYSTEM
+9. Select Add-Ons
+10. Select Install from zip file
+11. Select fusion
+12. Select start-here
+13. Select plugin.program.addoninstaller-x.x.x.zip
+14. Wait for Add-on enabled notification
+15. The Addon Installer is now installed and ready to use. To use the add-on open PROGRAMS and select Addon Installer. Once opened you can search for any add-on that you wish to install.
 
-
+# config auto download for subtitles 
+1. Start on the Home Screen by selecting “System”.
+2. Then “Add-ons”.
+3. Now click on “Install from repository”. 
+4. Select “Kodi Add-on repository”. 
+5. We are going to install some subtitles addons, click on “Subtitles”.
+6. There are many providers, install the ones that suits your language needs. “OpenSubtitles.org” offers subtitles in many languages and “Subscene.com” is great for english subtitles.
+7. Go back one screen and select “Services”. 
+8. Install “AutoSubs” to automatically get the Subtitle Selection Panel every time you start playing a video, this is optional. 
+9. Now we are going to set the language for the subtitles. Go back to the Home Screen and select “System”. 
+10. Then “Video”. 
+11. Select the “Subtitles” tab and make sure “Settings level” is set to “Standard” or higher.
+12. Switch “Preferred subtitle language” to your language. 
+13. You can select more than one language for subtitles.
+14. Click on “Default TV show service” and pick one from the ones you installed earlier, do the same for “Default movie service”. 
+15. Now the Subtitles Selection Panel will automatically open every time you start playing a video.
