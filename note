@@ -26,6 +26,15 @@ sudo add-apt-repository ppa:team-xbmc/ppa
 sudo apt-get update
 sudo apt-get install kodi
 
+# restart network
+sudo service network-manager restart
+
+# grub customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get update
+sudo apt-get install grub-customizer
+sudo grub-customizer
+
 
 # centos 7 ---------------------------------------------------------------------
 # centos7 uses gnome3 and requires -extension RANDR for the geometry to work
