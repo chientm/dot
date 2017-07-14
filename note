@@ -35,7 +35,6 @@ sudo apt-get update
 sudo apt-get install grub-customizer
 sudo grub-customizer
 
-
 # centos 7 ---------------------------------------------------------------------
 # centos7 uses gnome3 and requires -extension RANDR for the geometry to work
 vncserver -geometry 1920x1080 -extension RANDR
@@ -61,3 +60,10 @@ source /opt/Xilinx/14.7/ISE_DS/settings32.csh
 
 Shell, Bash shell, Korn Shell 32 bit environment...
 . /opt/Xilinx/14.7/ISE_DS/settings32.sh
+
+# setup shared folder on virtual machine (Ubuntu)
+#
+mkdir shared_folder
+sudo ln -f -s /opt/VBoxGuestAdditions-5.1.20/lib/VBoxGuestAdditions/mount.vboxsf /sbin/mount.vboxsf
+sudo mount -t vboxsf -o uid=1000,gid=1000 FolderName /home/<USER>/shared_folder
+
