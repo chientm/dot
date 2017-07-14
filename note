@@ -77,8 +77,8 @@ chsh -s /bin/bash
 sudo rm /bin/sh
 sudo ln -s /bin/bash /bin/sh
 # log out and log back in
-A
-D
-D
-D
-# change shell to fix problem with petalinux/settings.sh
+
+# MacOS clean disk
+#
+diskutil eraseDisk {filesystem} {Name to use} /dev/{disk identifier}
+diskutil eraseDisk FAT32 VOLUME /dev/disk1
