@@ -82,3 +82,18 @@ mkdir shared_folder
 sudo ln -f -s /opt/VBoxGuestAdditions-5.1.20/lib/VBoxGuestAdditions/mount.vboxsf /sbin/mount.vboxsf
 sudo mount -t vboxsf -o uid=1000,gid=1000 FolderName /home/<USER>/shared_folder
 
+# install dependency packages for petalinux on Ubuntu16.04.2
+#
+sudo apt-get install libssl-dev 
+
+# change shell to fix "/bin/sh is not bash" in petalinux/settings.sh in Ubuntu16.04.2
+#
+chsh -s /bin/bash
+sudo rm /bin/sh
+sudo ln -s /bin/bash /bin/sh
+# log out and log back in
+
+# MacOS clean disk
+#
+diskutil eraseDisk {filesystem} {Name to use} /dev/{disk identifier}
+diskutil eraseDisk FAT32 VOLUME /dev/disk1
