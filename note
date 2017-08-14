@@ -70,6 +70,11 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 sudo apt-get install libssl-dev
 sudo apt-get install device-tree-compiler
 
+# set environment variables before compiling u-boot
+export CROSS_COMPILE=arm-xilinx-linux-gnueabi-
+export ARCH=arm
+
+
 # compile u-boot-xlnx
 cd u-boot-xlnx
 make zynq_zed_config
