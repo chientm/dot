@@ -74,6 +74,8 @@ sudo apt-get install device-tree-compiler
 cd u-boot-xlnx
 make zynq_zed_config
 make
+# check the u-boot file
+arm-xilinx-linux-gnueabi-readelf -h u-boot
 
 
 # setup shared folder on virtual machine (Ubuntu)
