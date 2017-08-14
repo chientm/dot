@@ -61,6 +61,16 @@ source /opt/Xilinx/14.7/ISE_DS/settings32.csh
 Shell, Bash shell, Korn Shell 32 bit environment...
 . /opt/Xilinx/14.7/ISE_DS/settings32.sh
 
+# configure ubuntu to compile u-boot
+#
+# install package to run 32b app on 64b os
+sudo dpkg --add-architecture ỉ86
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+# install missing packages
+sudo apt-get install libssl-dev
+sudo apt-get install device-tree-compiler
+
+
 # setup shared folder on virtual machine (Ubuntu)
 #
 mkdir shared_folder
