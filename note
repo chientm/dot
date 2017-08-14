@@ -76,6 +76,15 @@ make zynq_zed_config
 make
 # check the u-boot file
 arm-xilinx-linux-gnueabi-readelf -h u-boot
+# test u-boot with xmd (not tested yet)
+xmd
+source ps7_init.tcl
+ps7_init
+dow u-boot
+run
+
+cd u-boot-xlnx/tools
+export PATH=$PATH:$PWD
 
 
 # setup shared folder on virtual machine (Ubuntu)
